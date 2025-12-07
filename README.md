@@ -35,3 +35,4 @@ What I Discovered:
 <img width="1791" height="979" alt="image" src="https://github.com/user-attachments/assets/2e77a3a4-0641-4923-acb0-6f1293efd911" />
 <img width="1798" height="988" alt="image" src="https://github.com/user-attachments/assets/9d56c531-50fd-4f4c-bef9-a4ca9dfcc803" />
 
+Live Demo: https://github.com/Hiya82P/Netflix-Clone.git
