@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+}
+#net{
+    height:40px;
+    width:150px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+#Select-Language {
+    padding: 10px 45px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#signin{
+    background-color: rgb(229, 9, 20);  
+    color: white;
+    padding: 10px 15px;               
+    font-size: 16px;                  
+    border: none;                     
+    border-radius: 8px;              
+    margin-right: 85px;
+    margin-top: 20px;
+    cursor: pointer;                 
+    transition: background-color 0.3s ease;
+}
+
+#signin:hover {
+    background-color: rgb(200, 0, 10);  
+}
+form{
+    background-color: black;
+    color:white;
+    display: inline-block;
+    margin-left: 70%;
+    margin-top: 5%;
+}
+.start{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.811), rgba(0, 0, 0, 0.811)), url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:630px;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 38px;
+}
+h5{
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+lighter{
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+
+}
+#mail{
+    height: 50px;
+    width:300px;
+    padding-left: 10px;
+    margin-right: 5px;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+#first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startt{
+    background-color: rgb(229, 9, 20);  
+    color: white;
+    padding: 15px 30px;               
+    font-size: 18px;                  
+    border: none;                     
+    border-radius: 4px;              
+    cursor: pointer;                 
+    transition: background-color 0.3s ease;
+}
+#startt:hover {
+    background-color: rgb(200, 0, 10); 
+}
+
+h4{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+#trend{
+    color:white;
+    margin-left:50px;
+    margin-top:40px;
+}
+#hr1{
+    background-color:red;
+    height:2px;
+}
+#fav {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    overflow-x: auto;          /* enables horizontal scroll */
+    scrollbar-width: thin;     /* makes small scrollbar */
+    scroll-behavior: smooth;   /* smooth scrolling */
+    gap: 20px;                 /* better spacing */
+    padding-bottom: 10px;
+}
+
+#fav img {
+    height: 200px;
+    border-radius: 8px;
+    flex-shrink: 0;             /* prevents images from shrinking */
+    scroll-snap-align: start;   /* aligns each image cleanly */
+}
+
+#fav {
+    scroll-snap-type: x mandatory; /* smooth snapping */
+}
+
+#mains{
+    background-color:black;
+}
+#more{
+    color:white;
+    margin-left:50px;
+    margin-top:40px;
+}
+
+/* More reasons to join section */
+#reasons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0;
+    background-color: #111;
+}
+
+.reason {
+    background: #181818;
+    border-radius: 12px;
+    padding: 30px 20px;
+    width: 260px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+.reason:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.reason img {
+    width: 60px;
+    margin-bottom: 18px;
+}
+.reason h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #e50914;
+}
+.reason p {
+    font-size: 15px;
+    color: #ccc;
+}
+
+/* Footer Styles */
+footer {
+    background: #111;
+    color: #757575;
+    padding: 40px 0 20px 0;
+    font-size: 15px;
+    border-top: 4px solid #222;
+}
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer-links a {
+    color: #757575;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.footer-links a:hover {
+    color: #fff;
+}
+.footer-lang select {
+    background: #000;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 7px 30px;
+    margin-bottom: 20px;
+}
+.footer-copy {
+    text-align: center;
+    color: #757575;
+    font-size: 14px;
+}
+
+
+    
+    
